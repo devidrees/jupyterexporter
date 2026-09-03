@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*$py.class
+test_nb.ipynb
+test_nb.pdf
+notes.ipynb
+flower.jpg
+markdownparser_v2_stable.py
+testnb2.ipynb
