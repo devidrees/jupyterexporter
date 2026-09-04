@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "jupyterexporter"
+version = "0.1.0"
+description = "Export Jupyter notebooks to PDF with just a command. jupyterexporter filepath.ipynb -o outputpath.pdf"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "Mohammad Idrees Bhat", email = "dev.idrees@gmail.com"}
+]
+
+license = { text = "MIT" }
+
+keywords = [
+    "jupyter",
+    "jupyter-notebook",
+    "notebook",
+    "pdf",
+    "export",
+    "jupyter-notebook-export"
+]
+
+
+dependencies = [
+    "reportlab",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+]
+
+
+[project.scripts]
+jupyterexporter = "jupyterexporter.main:main"
+
+
+[tool.setuptools.packages.find]
+include = ["jupyterexporter*"]
+
+
+[project.urls]
+Homepage = "https://github.com/devidrees/jupyterexporter"
+Repository = "https://github.com/devidrees/jupyterexporter"
+Issues = "https://github.com/devidrees/jupyterexporter/issues"
