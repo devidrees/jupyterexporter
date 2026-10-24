@@ -13,6 +13,13 @@ Jupyter notebooks are excellent for exploratory work, experiments, and data anal
 
 This repository is designed to support open-source development and practical notebook publishing workflows.
 
+```python
+pip install jupyterexporter
+# make sure that the path notebook_name.ipynb exists
+jupyterexporter notebook_name.ipynb
+# you will find the notebook_name.pdf in the same folder you are working in
+```
+
 ---
 
 ## Features
