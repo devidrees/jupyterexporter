@@ -1,7 +1,7 @@
 # Jupyter Exporter
 Export Jupyter Notebooks (.ipynb) to PDF.
 
-A lightweight Python project for exporting Jupyter notebooks into static, shareable formats for documentation, publishing, and automation.
+A lightweight Python library for exporting Jupyter notebooks into static, shareable pdf documents for documentation, publishing, and automation.
 
 `jupyterexporter` provides a simple Python API and command-line interface (CLI) for converting Jupyter Notebook files into PDF documents.
 
